@@ -1,0 +1,1 @@
+<a href="{{ $url }}" class="block no-underline px-4 py-4 pl-13 text-grey-dark hover:text-brand">{!! $slot !!}</a>

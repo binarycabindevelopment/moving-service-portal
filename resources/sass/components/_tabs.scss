@@ -1,0 +1,18 @@
+.tabs{
+  @apply .flex .border-b .border-grey-lighter;
+  .tab{
+    margin-bottom: -1px;
+    margin-right: .25rem;
+    > a{
+      @apply .bg-grey-lightest .inline-block .py-2 .px-4 .text-blue .font-semibold .no-underline;
+      &:hover{
+        @apply .text-blue-darker;
+      }
+    }
+    &.active{
+      > a{
+        @apply .border-l .border-t .border-r .rounded-t .text-blue-dark .border-grey-lighter .bg-white;
+      }
+    }
+  }
+}
